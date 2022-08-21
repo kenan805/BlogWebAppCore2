@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BlogWebAppCore2.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BlogWebAppCore2.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogWebAppCore2.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BlogWebAppCore2.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BlogWebAppCore2.Shared/BlogWebAppCore2.Shared.csproj",
+      "msbuildProject": "../BlogWebAppCore2.Shared/BlogWebAppCore2.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BlogWebAppCore2.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\source\\repos\\BlogWebAppCore2\\BlogWebAppCore2.Shared\\BlogWebAppCore2.Shared.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\BlogWebAppCore2\\BlogWebAppCore2.Shared\\BlogWebAppCore2.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -51,7 +74,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

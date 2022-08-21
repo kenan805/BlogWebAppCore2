@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlogWebAppCore2.Shared\BlogWebAppCore2.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
