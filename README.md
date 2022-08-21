@@ -1,4 +1,4 @@
-#Subjects used:
+# Subjects used:
 - Project Development with N-Tier Architecture
 - Entity Framework Core 6 with Code First 
 - .NET5 ve ASP NET CORE 6
