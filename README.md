@@ -1,1 +1,25 @@
-# BlogWebAppCore2
+#Subjects used:
+- Project Development with N-Tier Architecture
+- Entity Framework Core 6 with Code First 
+- .NET5 ve ASP NET CORE 6
+- Fluent API 
+- Generic Repository Pattern
+- Unit of Work Pattern
+- Async programming
+- OOP
+- Kalıtım (Polymorphism)
+- Front-End validations with Data Annotations
+- Dependency Injection
+- Extension Metodlar
+- Result Yapısı
+- DTO (Data Transfer Object) 
+- AutoMapper library
+- MD5 Password Hashing
+- LINQ
+- Ajax
+- jQuery
+- jQuery UI
+- Sweet Alert2
+- Toastr
+- DataTables
+- Bootstrap 4.5 
