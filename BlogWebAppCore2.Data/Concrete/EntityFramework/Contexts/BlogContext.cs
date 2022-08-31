@@ -1,4 +1,5 @@
-﻿using BlogWebAppCore2.Entites.Concrete;
+﻿using BlogWebAppCore2.Data.Concrete.EntityFramework.Mappings;
+using BlogWebAppCore2.Entites.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,15 @@ namespace BlogWebAppCore2.Data.Concrete.EntityFramework.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(connectionString: @"Server=WIN-ML3N7I995PP;Database=CoreBlogDb2;Trusted_Connection=True;Connect Timeout=30;MultipleActiveResultSets=True;");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ArticleMap())
+                .ApplyConfiguration(new CategoryMap())
+                .ApplyConfiguration(new CommentMap())
+                .ApplyConfiguration(new RoleMap())
+                .ApplyConfiguration(new UserMap());
         }
 
     }
