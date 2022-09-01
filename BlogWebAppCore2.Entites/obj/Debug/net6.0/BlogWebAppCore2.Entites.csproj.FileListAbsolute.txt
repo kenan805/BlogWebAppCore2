@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\bin\Debug\net6.0\BlogWebAppCore2.Entites.deps.json
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\bin\Debug\net6.0\BlogWebAppCore2.Entites.dll
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\bin\Debug\net6.0\BlogWebAppCore2.Entites.pdb
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\bin\Debug\net6.0\BlogWebAppCore2.Shared.dll
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\bin\Debug\net6.0\BlogWebAppCore2.Shared.pdb
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.AssemblyInfo.cs
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.csproj.CopyComplete
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.dll
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\refint\BlogWebAppCore2.Entites.dll
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\BlogWebAppCore2.Entites.pdb
+C:\Users\user\source\repos\BlogWebAppCore2\BlogWebAppCore2.Entites\obj\Debug\net6.0\ref\BlogWebAppCore2.Entites.dll
