@@ -25,6 +25,45 @@ namespace BlogWebAppCore2.Data.Concrete.EntityFramework.Mappings
             builder.Property(c => c.IsDeleted).IsRequired();
             builder.Property(c => c.Note).HasMaxLength(500);
             builder.ToTable("Categories");
+            builder.HasData(new Category
+            {
+                Id = 1,
+                Name = "C#",
+                Description = "C# proqlaşdırma dili ilə bağlı məlumatlar",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "C# Bloq Kateqoriyası"
+            },
+            new Category
+            {
+                Id = 2,
+                Name = "C++",
+                Description = "C++ proqlaşdırma dili ilə bağlı məlumatlar",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "C++ Bloq Kateqoriyası"
+            },
+            new Category
+            {
+                Id = 3,
+                Name = "JavaScript",
+                Description = "JavaScript proqlaşdırma dili ilə bağlı məlumatlar",
+                IsActive = true,
+                IsDeleted = false,
+                CreatedByName = "InitialCreate",
+                CreatedDate = DateTime.Now,
+                ModifiedByName = "InitialCreate",
+                ModifiedDate = DateTime.Now,
+                Note = "JavaScript Bloq Kateqoriyası"
+            });
         }
     }
 }
